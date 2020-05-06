@@ -54,6 +54,8 @@
    NSDate *						_distantPast;
    NSMutableSet *				_viewStorage;
    BOOL							_isPackaged;
+@private
+   int                     _running;
 }
 
 - (void)runOnce;
